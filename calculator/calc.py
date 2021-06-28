@@ -27,12 +27,12 @@ class Calculator:
 
     @property
     def current_value(self) -> float:
-        """Prints the current value calculated"""
-        return self._current_value  # = current_value
-        # print("Current value:", current_value)
+        """A getter function"""
+        return self._current_value
 
     @current_value.setter
-    def current_value(self, a):
+    def current_value(self, a) -> float:
+        """A setter function"""
         try:
             float(a)
             self._current_value = a
