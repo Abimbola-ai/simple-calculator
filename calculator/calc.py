@@ -91,5 +91,9 @@ if __name__ == "__main__":
     c = Calculator()
     c.current_value = 9
     print(c.current_value)
-    c.current_value = "st"
-    print(c.current_value)
+    # c.current_value = "st"
+    # print(c.current_value)
+    print(c.add(5))
+    print(c.subtract(5))
+    print(c.divide(6))
+    print(c.nroot(-2))
