@@ -17,7 +17,6 @@ Import the calculator module and call the class:
 
 ```
 from calculator.calc import Calculator, CalculatorError
-
 calculator = Calculator()
 ```
 
@@ -25,11 +24,10 @@ The current value on the calculator is 0. To perform Add operation:
 
 ```
 calculator.add(5)
-
 ```
 
 Returns 0 + 5 = 5
-Other methods are `.add(), .subtract, .multipy(), .divide(), .nroot().`
+Other methods are `.subtract, .multipy(), .divide(), .nroot().`
 
 What is what:
 
