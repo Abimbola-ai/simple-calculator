@@ -1,7 +1,5 @@
 import numbers
 
-# current_value = 0
-
 
 class CalculatorError(Exception):
     """For calculator errors"""
