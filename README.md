@@ -15,14 +15,16 @@ Example code below will create the calculator method for five different operatio
 
 Import the calculator module and call the class:
 
-```from calculator.calc import Calculator, CalculatorError
+```
+from calculator.calc import Calculator, CalculatorError
 
 calculator = Calculator()
 ```
 
 The current value on the calculator is 0. To perform Add operation:
 
-```calculator.add(5)
+```
+calculator.add(5)
 
 ```
 
