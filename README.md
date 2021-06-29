@@ -27,6 +27,7 @@ calculator.add(5)
 ```
 
 Returns 0 + 5 = 5
+
 Other methods are `.subtract, .multipy(), .divide(), .nroot().`
 
 What is what:
