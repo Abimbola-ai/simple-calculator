@@ -29,7 +29,7 @@ class Calculator:
         return self._current_value
 
     @current_value.setter
-    def current_value(self, a) -> float:
+    def current_value(self, a: float) -> float:
         """A setter function"""
         try:
             float(a)
