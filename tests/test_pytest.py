@@ -2,8 +2,6 @@ import pytest
 
 from calculator.calc import CalculatorError, Calculator
 
-# current_value = 0
-
 
 def test_add():
     """Tests the add function in calculator program"""
@@ -50,3 +48,10 @@ def test_divide_by_zero():
     calculator.current_value = 4
     with pytest.raises(CalculatorError):
         result = calculator.divide(0)
+
+
+def test_validate():
+    calculator = Calculator()
+    x = "ftr"
+    with pytest.raises(CalculatorError):
+        result = calculator.validate(x)
